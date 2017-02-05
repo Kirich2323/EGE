@@ -414,7 +414,7 @@ sub check_sub {
 {
     my $b = make_block([
         'for', 'i', 0, 9, [
-            'expr', [ 'print', 'i', 0 ]
+            'expr', [ 'print', 'num', 'i', 0 ]
         ]
     ]);
     my $c = {
